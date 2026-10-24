@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getAccessToken, getRefreshToken, setAccessToken, clearTokens } from './token';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8080/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://lms-project-2-xehc.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
