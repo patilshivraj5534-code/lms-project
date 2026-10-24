@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl *)",
+      "Bash(unzip *)",
+      "Bash(sudo ln *)",
+      "Bash(npm install *)",
+      "Bash(mvn spring-boot:run)",
+      "Bash(./mvnw.sh test *)",
+      "Bash(.\\\\\\\\mvnw.cmd test *)",
+      "Bash(cmd.exe /c \"mvnw.cmd test\")",
+      "Bash(mvn compile *)",
+      "Bash(./mvnw -q compile)",
+      "Bash(npm --version)",
+      "Bash(npm run *)",
+      "Bash(./mvnw -q spring-boot:run)",
+      "Bash(java -version)",
+      "Bash(mvn -v)",
+      "Bash(npm i *)"
+    ]
+  }
+}
